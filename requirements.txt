@@ -1,0 +1,15 @@
+streamlit>=1.28.0
+langchain>=0.1.0
+langchain-community>=0.0.10
+# langchain-google-palm>=0.0.3  # Not needed with langchain-community
+google-generativeai>=0.3.0
+faiss-cpu>=1.7.4
+python-dotenv>=1.0.0
+google-auth>=2.23.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.1.1
+google-api-python-client>=2.100.0
+PyPDF2>=3.0.1
+python-pptx>=0.6.21
+qdrant-client>=1.7.0
+sentence-transformers>=2.2.0

@@ -1,0 +1,7 @@
+{
+  "model_name": "all-mpnet-base-v2",
+  "chunks_count": 484,
+  "embedding_dimensions": 768,
+  "created_at": "2025-08-31T16:16:55.561909",
+  "chunks_hash": "071284d215051fe5dd25e453ed788344"
+}
