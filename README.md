@@ -1,6 +1,6 @@
 # 📚 Lecture Notes RAG Chatbot
 
-A RAG-powered chatbot that helps students find relevant lecture notes based on course ID, professor name, and concept queries. Built with LangChain, Google Gemini 2.0 Flash, and FAISS vector database.
+A RAG-powered chatbot that helps students find relevant lecture notes based on course ID, professor name, and concept queries. Built with LangChain, Google Gemini 2.0 Flash, and Qdrant vector database.
 
 ## 🚀 Features
 
@@ -106,5 +106,6 @@ If the RAG system fails to initialize, the chatbot falls back to simple text-bas
 ## 📝 License
 
 This project is open source and available under the MIT License.
+
 
 
