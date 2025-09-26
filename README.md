@@ -6,7 +6,7 @@ A RAG-powered chatbot that helps students find relevant lecture notes based on c
 
 - **Smart Search**: Find lecture notes by course, professor, and concept
 - **RAG Integration**: Uses Retrieval-Augmented Generation for accurate answers
-- **Vector Search**: FAISS-based semantic search through document chunks
+- **Vector Search**: Qdrant-based semantic search through document chunks
 - **User-Friendly Interface**: Streamlit web interface for easy interaction
 - **Source Attribution**: Shows exactly which documents and sections contain the information
 
@@ -51,7 +51,7 @@ streamlit run rag_chatbot.py
 ## 🎯 How It Works
 
 1. **Document Processing**: Your existing `extracting_files.py` extracts chunks from Google Drive documents
-2. **Vector Storage**: Chunks are converted to embeddings and stored in FAISS vector database
+2. **Vector Storage**: Chunks are converted to embeddings and stored in Qdrant vector database
 3. **RAG Search**: When a student asks a question:
    - Filters chunks by course ID and professor name
    - Searches for relevant content using semantic similarity
@@ -91,7 +91,7 @@ If the RAG system fails to initialize, the chatbot falls back to simple text-bas
 
 ## 📊 Performance
 
-- **Vector Search**: Fast semantic similarity search using FAISS
+- **Vector Search**: Fast semantic similarity search using Qdrant
 - **Caching**: Streamlit session state maintains chatbot instance
 - **Efficient Filtering**: Pre-filters chunks by course/professor before semantic search
 
@@ -106,4 +106,5 @@ If the RAG system fails to initialize, the chatbot falls back to simple text-bas
 ## 📝 License
 
 This project is open source and available under the MIT License.
+
 
