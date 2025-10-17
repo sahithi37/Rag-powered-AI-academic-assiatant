@@ -103,9 +103,8 @@ If the RAG system fails to initialize, the chatbot falls back to simple text-bas
 - [ ] Export search results
 - [ ] Integration with learning management systems
 
-## 📝 License
 
-This project is open source and available under the MIT License.
+
 
 
 
